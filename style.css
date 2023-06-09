@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+   
+}
+
+
+.container{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+.edit{
+    color:coral ;
+}
+.logo {
+    
+}
+.container{
+    background-image: image();
+}
+.icons{
+    margin-left: 40px;
+    margin-right: 20px;
+
+}
