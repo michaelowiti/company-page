@@ -2,27 +2,39 @@ body{
     background: linear-gradient(to top, #dfe9f3 0%, white 100%);
     color: black;
 }
+.navbar {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 nav ul li{
     list-style: none;
     display: flex;
     float: right;
     margin-right: 20px;
-    margin-top: 0px;
+    margin-top: 15px;
    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo p{
+    margin-top: 12px;
+    position: absolute;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
 }
 
 
 .container{
-    margin-top: 50px;
-    margin-left: 100px;
-    font-size: xx-large;
+  width: 100%;
+
 }
 .edit{
     color:coral ;
 }
-.logo {
-    
-}
+
 .container{
     background-image: image();
 }
@@ -30,4 +42,69 @@ nav ul li{
     margin-left: 40px;
     margin-right: 20px;
 
+}
+.container img{
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.4;
+    height: 700px;
+    
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 80px;
+    color:black;
+    transform: translate(-50%, -50%);
+}
+.cardbox{
+    display: flex;
+    
+
+
+}
+.f{
+    position: relative;
+    width: 100%;
+    padding-left: 25px;
+    height: auto;
+}
+h2{
+    text-align: center;
+}
+.subscribe{
+    text-align: center;
+}
+.f h4,h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+form{
+    margin-left: 770px;
+    max-width: 390px;
+    
+}
+.query label{
+    display: block;
+    padding: 10px;
+
+}
+footer{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: black;
+    color: grey;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    justify-content: space-between;
+
+}
+.icons i{
+    padding: 10px;
 }
